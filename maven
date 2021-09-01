@@ -1,0 +1,2 @@
+sudo apt-get remove maven    --------- maven package remove from maven
+sudo apt-get install maven   --------- maven install
