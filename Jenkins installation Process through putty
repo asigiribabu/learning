@@ -1,0 +1,9 @@
+sudo apt-get update  ----------- ubuntu updates
+enter the linex ubuntu web page data 
+after installation open the hostcode with port range 8080 in google
+showing jenkins password & copy the password
+sudo cat mentioned copy the password
+copy the password & paste the jenkins page
+install all plugins 
+create the jenkins credentials
+save the username & Password
