@@ -2,3 +2,4 @@ sudo service jenkins status   --------- jenkins status
 sudo service jenkins stop     --------- jenkins stop
 sudo service jenkins start    --------- jenkins start
 sudo service jenkins restart  --------- jenkins restart
+sudo cat showing file in jenkins admin page------ showing jenkins password
