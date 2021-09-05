@@ -1,5 +1,5 @@
 sudo apt-get update  ----------- ubuntu updates
-enter the linex ubuntu web page data 
+enter the linex ubuntu web page data ( https://www.jenkins.io/doc/book/installing/linux/ )
 after installation open the hostcode with port range 8080 in google
 showing jenkins password & copy the password
 sudo cat mentioned copy the password
