@@ -1,0 +1,18 @@
+Yum install docker
+systemctl start docker
+docker pull ubuntu ( For images)
+docker pull centos
+docker ps ( check for containers list)
+docker images ( check for docker images)
+docker run -it image id ( container start )
+docker attach container id ( container id attach)
+docker images
+docker ps -a
+docker rename hopeful_volhard believe
+ctrl p+q (docker running but exit from container id)
+exit ( exit from docker id )
+docker ps -a
+docker start 1d6a0212c552
+docker stop 1d6a0212c552
+docker run -itd imaged id( to create image )
+docker ps
