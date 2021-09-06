@@ -16,3 +16,16 @@ docker start 1d6a0212c552
 docker stop 1d6a0212c552
 docker run -itd imaged id( to create image )
 docker ps
+docker rm container id -f ( delete container )
+docker rm $(docker ps -aq) -f (for delete all containers)
+docker rmi image id ( for delete images )
+docker rmi $(docker images -q) ------- (for delete all images)
+docker images -q ----------- (showing images ids)
+touch Docker  ------------( docker file creation )
+ vi Docker   ------------( edit docker file )
+ cat Docker   -----------( open docker file )
+ docker build -t myimage  -------(docker file build)
+   47  vi Docker
+   48  cat Docker
+
+
