@@ -1,31 +1,35 @@
 Yum install docker
-systemctl start docker
-docker pull ubuntu ( For images)
-docker pull centos
-docker ps ( check for containers list)
+docker --version ( for docker version check )
+systemctl start docker   ( for start docker )
+docker pull ubuntu ( For download images from docker official website)
+docker images ( check for docker images )
+docker pull centos  ( for download images from centos official website)
 docker images ( check for docker images)
-docker run -it image id ( container start )
+docker run -it image id ( Image id to be changed to container id & enter to container )
+ls ( check for docker list)
+apt-get update (update container )
+apt-get install maven ( install maven package )
+cd /opt/   ( change directory )
+exit ( exit from container )
+docker ps ( containers running status )
+docker ps -a ( all hide docker containers list )
+docker start container id ( to start container )
 docker attach container id ( container id attach)
-docker images
-docker ps -a
-docker rename hopeful_volhard believe
-ctrl p+q (docker running but exit from container id)
-exit ( exit from docker id )
-docker ps -a
-docker start 1d6a0212c552
-docker stop 1d6a0212c552
-docker run -itd imaged id( to create image )
-docker ps
-docker rm container id -f ( delete container )
-docker rm $(docker ps -aq) -f (for delete all containers)
-docker rmi image id ( for delete images )
-docker rmi $(docker images -q) ------- (for delete all images)
-docker images -q ----------- (showing images ids)
-touch Docker  ------------( docker file creation )
- vi Docker   ------------( edit docker file )
- cat Docker   -----------( open docker file )
- docker build -t myimage  -------(docker file build)
-   47  vi Docker
-   48  cat Docker
+ctrl+p+q   ( exit from docker but still docker running in backend)
+docker run -itd image id  ( Image id to be changed to container id )
+docker stop container id ( to stop for container id )
+docker rename oldname newname ( to be changed old name to new name )
+docker run -it --name newname imageid ( no of containers creation using with only one image id)
+docker restart container id ( for restart container id)
+docker exec -it container id /bin/bash   ( to start container id & incase you exit from this container but still container was running backend )
+docker rm container id   (forcefully deleted container id )
+docker ps -aq ( showing all containers list )
+docker stop $(docker ps -a)   ------------ (to stop all containers)
+docker start $(docker ps -aq)   ----------- ( to start all containers)
+docker rm container id -f ( running container forcefully deleted)
+docker rmi image id image id  ( delete selected images)
+docker images -q ( showing all images id )
+docker rmi $(docker images -q) ------------ ( delete all images )
+
 
 
