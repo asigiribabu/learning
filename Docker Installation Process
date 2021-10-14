@@ -1,6 +1,7 @@
-Yum install docker
+sudo apt install docker.io
 docker --version ----------------------------------( for docker version check )
-systemctl start docker ----------------------------( for start docker )
+sudo systemctl start docker ----------------------------( for start docker )
+sudo systemctl enable docker-----------------------()
 docker pull ubuntu --------------------------------( For download images from docker official website)
 docker images--------------------------------------( check for docker images )
 docker pull centos --------------------------------( for download images from centos official website)
